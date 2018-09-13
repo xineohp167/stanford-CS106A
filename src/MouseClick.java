@@ -13,6 +13,6 @@ public class MouseClick extends GraphicsProgram {
 
 	
 	public void mouseClicked(MouseEvent e){
-		add(new GImage("Frog.jpg", e.getX(), e.getY()));
+		add(new GImage("frog.jpg", e.getX(), e.getY()));
 	}
 }
