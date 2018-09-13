@@ -5,7 +5,7 @@ import acm.program.*;
 import java.awt.*;
 import java.awt.event.MouseEvent;
 
-public class MouseClickUnCen extends GraphicsProgram {
+public class MouseClick extends GraphicsProgram {
 	
 	public void init(){
 		addMouseListeners();
@@ -13,6 +13,6 @@ public class MouseClickUnCen extends GraphicsProgram {
 
 	
 	public void mouseClicked(MouseEvent e){
-		add(new GImage("Kurec.jpg", e.getX(), e.getY()));
+		add(new GImage("Frog.jpg", e.getX(), e.getY()));
 	}
 }
